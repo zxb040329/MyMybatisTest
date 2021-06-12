@@ -15,12 +15,14 @@ import lombok.NoArgsConstructor;
 public class User {
     private Integer id;
 
-    private String name;
+    private String username;
 
     private String password;
 
+    private String sex;
+
     private Integer age;
 
-    private Integer sex;
+
 
 }

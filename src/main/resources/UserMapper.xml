@@ -1,7 +1,7 @@
 <mapper namespace="com.lg.dao.IUserDao">
 
     <select id="getUserById" resultType="com.lg.entity.User" parameterType="com.lg.entity.User">
-        select * from t_user where id = #{id}
+        select * from t_user where id = #{id} and username = #{username}
     </select>
 
     <select id="getUserList" resultType="com.lg.entity.User">

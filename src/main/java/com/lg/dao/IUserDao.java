@@ -9,9 +9,9 @@ import java.util.List;
  * @date 2021-05-10 23:08
  **/
 public interface IUserDao {
-    public User getUserById(Integer id);
+    User getUserById(User user);
 
-    public List<User> getUserList();
+    List<User> getUserList();
 
 
 }
